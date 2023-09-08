@@ -1,0 +1,26 @@
+
+.BetterCheckoutTextContainer{
+	color: #fff;
+}
+
+.ListCardsBetterCheckout{
+	margin-top: 64px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly ;
+}
+
+.CardBetter{
+	color: #fff;
+	list-style: none;
+	width: 22%;
+}
+
+.HeaderCard{
+	font-size: 26px;
+}
+
+.HeaderCard>h3{
+	margin: 0;
+}
