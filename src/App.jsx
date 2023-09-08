@@ -4,6 +4,8 @@ import { HeaderContainer } from './components/Header'
 import { Intro } from './components/Intro'
 import { Skills } from './components/Skills'
 import { BetterCheckout } from './components/BetterCheckout'
+import { Integration } from './components/IntegrationFast'
+import { Partners } from './components/Partners'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
 			<Intro/>
 			<Skills/>
 			<BetterCheckout/>
+			<Integration/>
+			<Partners/>
 		</div>
 	)
 }

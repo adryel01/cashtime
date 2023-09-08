@@ -1,0 +1,16 @@
+
+.PartnersContainer{
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 32px;
+	align-self: center;
+	margin: 0 auto;
+	border-radius: 16px;
+}
+
+.BackgroundPartners{
+	padding: 16px;
+	
+}

@@ -1,0 +1,48 @@
+
+.IntegrationContainer{
+	margin-top: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.IntegrationContainer>div>h2{
+	font-size: 36px;
+}
+
+.IntegrationContainer>div>p{
+	font-size: 22px;
+	
+}
+
+.IntegrationContainer>div>button{
+	font-size: 24px;
+	background-color: #31b4c7;
+	color: #fff;
+	animation: bounce 1s infinite;
+	margin-top: 16px;
+}
+
+
+.IntegrationContainer>img{
+	height: 500px;
+}
+
+
+
+@keyframes bounce {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	80% {
+		transform: scale(1.05);
+	}
+}

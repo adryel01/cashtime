@@ -33,6 +33,12 @@
 	border: none;
 }
 
+.slide>img {
+	padding: 16px;
+	width: 90%;
+	border: none;
+}
+
 @keyframes scroll {
 	0% {
 		transform: translateX(0);
