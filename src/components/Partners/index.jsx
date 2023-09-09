@@ -1,6 +1,11 @@
 import './style.css'
 import shopify from '../../assets/shopify.png'
 import meta from '../../assets/meta.png'
+import google from '../../assets/google.png'
+import tiktok from '../../assets/tiktok.png'
+import taboola from '../../assets/taboola.png'
+import reportana from '../../assets/reportana.png'
+import woocommerce from '../../assets/woocommerce.png'
 
 export function Partners() {
 
@@ -17,11 +22,11 @@ export function Partners() {
 					<div className='slide-track'>
 						<div className='slide'><img src={shopify} alt="" /></div>
 						<div className='slide'><img src={meta} alt="" /></div>
-						<div className='slide'><button>Pagamento em D+2</button></div>
-						<div className='slide'><button>Pix na Hora</button></div>
-						<div className='slide'><button>Recuperação de Carrinho</button></div>
-						<div className='slide'><button>Melhores Taxas do Mercado</button></div>
-						<div className='slide'><button>Bloqueio Zero</button></div>
+						<div className='slide'><img src={woocommerce} alt="" /></div>
+						<div className='slide'><img src={google} alt="" /></div>
+						<div className='slide'><img src={tiktok} alt="" /></div>
+						<div className='slide'><img src={taboola} alt="" /></div>
+						<div className='slide'><img src={reportana} alt="" /></div>
 					</div>
 				</div>
 			</section>

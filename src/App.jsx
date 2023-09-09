@@ -6,6 +6,7 @@ import { Skills } from './components/Skills'
 import { BetterCheckout } from './components/BetterCheckout'
 import { Integration } from './components/IntegrationFast'
 import { Partners } from './components/Partners'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 			<BetterCheckout/>
 			<Integration/>
 			<Partners/>
+			<Footer/>
 		</div>
 	)
 }

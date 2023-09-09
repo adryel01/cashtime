@@ -12,6 +12,10 @@
 	width: calc(200px * 14);
 }
 
+.slide-track{
+	align-items: center;
+}
+
 .slider .slide {
 	width: 200px;
 
