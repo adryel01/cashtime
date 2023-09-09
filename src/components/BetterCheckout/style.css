@@ -25,3 +25,42 @@
 .HeaderCard>h3{
 	margin: 0;
 }
+
+@media (max-width:450px){
+	.BetterCheckoutContainer{
+		max-width: 98vw;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.BetterCheckoutTextContainer{
+		max-width: 100vw;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.ListCardsBetterCheckout{
+		display: flex;
+		flex-direction: row;
+		max-width: 100vw;
+		width: 90%;
+		align-items: flex-start;
+		justify-content: flex-start ;
+		padding: 0;
+		margin: 0 auto;
+		margin-top: 64px;
+		overflow-x: scroll;
+		gap: 32px;
+	}
+
+	.CardBetter{
+		color: #fff;
+		list-style: none;
+		max-width: 100vw;
+		width: 320px;
+	}
+
+	.HeaderCard>h3{
+		width: 300px;
+	}
+}
