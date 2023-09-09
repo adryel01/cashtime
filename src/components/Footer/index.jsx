@@ -23,7 +23,7 @@ export function Footer() {
 					<h3>
 						Fale Conosco
 					</h3>
-					<p><b>Email:</b> contato@cashtime.com.br</p>
+					<p><b>Email:</b> contato@cashtimepayments.com.br</p>
 				</div>
 				<div className='RightFooter'>
 					<h3>
