@@ -1,5 +1,4 @@
 .slider {
-	/* width: 75vw; */
 	height: auto;
 	margin: auto;
 	overflow: hidden;
@@ -18,11 +17,6 @@
 
 .slider .slide {
 	width: 200px;
-
-
-}
-
-.slider .slide {
 	width: 100%;
 	font-size: 24px;
 }
