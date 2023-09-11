@@ -7,16 +7,47 @@ import { motion } from "framer-motion"
 
 export function BetterCheckout() {
 
+	const text = "+95% de taxa de aprovação";
+
+
+	const textVariants = {
+		hidden: { opacity: 0, y: 20 },
+		visible: { opacity: 1, y: 0 },
+	};
+
+	const containerVariants = {
+		hidden: {},
+		visible: {
+			transition: {
+				staggerChildren: 0.1, // Adiciona um pequeno atraso entre cada letra
+			},
+		},
+	};
+
 	return (
 
 		<section className='BetterCheckoutContainer'>
 			<div className='BetterCheckoutTextContainer'>
-				<motion.h1 viewport={{ once: true }}
+				{/* <motion.h1 viewport={{ once: true }}
 					initial={{ opacity: 0, x: 100 }}
 					whileInView={{ opacity: 1, x: 0 }}
 					exit={{ opacity: 0, x: 100 }}
 					transition={{ type: 'spring', stiffness: 120, duration: 1 }}
-				>+95% de taxa de aprovação</motion.h1>
+				>+95% de taxa de aprovação</motion.h1> */}
+				<motion.h1
+					variants={containerVariants}
+					initial="hidden"
+					whileInView="visible"
+				>
+					{text.split('').map((letter, index) => (
+						<motion.span
+							key={index}
+							variants={textVariants}
+						>
+							{letter}
+						</motion.span>
+					))}
+				</motion.h1>
 				<h2>Com nossa tecnologia de ponta e colaborações estratégicas, garantimos uma taxa de aprovação de pagamento excepcionalmente alta, assegurando que praticamente todas as suas transações sejam processadas com êxito e segurança absoluta.</h2>
 			</div>
 

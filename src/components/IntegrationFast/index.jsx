@@ -31,7 +31,7 @@ export function Integration() {
 				<motion.h2
 					variants={containerVariants}
 					initial="hidden"
-					animate="visible"
+					whileInView="visible"
 				>
 					{text.split('').map((letter, index) => (
 						<motion.span
