@@ -18,7 +18,7 @@ export function Intro() {
 					</div>
 					<img src={ButtonStart} alt="" className='ImageHeaderIntroContainer' />
 				</div>
-				<p>de Sistemas de Pagamentos</p>
+				<p>de Checkout de Pagamentos</p>
 				<span>A resposta definitiva para aprimorar o seu negócio digital está ao seu alcance. Nossa plataforma oferece recursos inteligentes para impulsionar suas vendas através de automação, um processo de finalização de compra inigualável e muito mais. Agora, você encontrou a solução que estava buscando.</span>
 				<button className='ButtonAccess'>Acessar Agora</button>
 			</div>
