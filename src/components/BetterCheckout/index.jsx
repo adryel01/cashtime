@@ -1,8 +1,9 @@
 import './style.css'
 import { FaDownLeftAndUpRightToCenter } from 'react-icons/fa6'
-import {BsGraphUpArrow} from 'react-icons/bs'
-import {RxDashboard} from 'react-icons/rx'
-import {BsFillCartCheckFill} from 'react-icons/bs'
+import { BsGraphUpArrow } from 'react-icons/bs'
+import { RxDashboard } from 'react-icons/rx'
+import { BsFillCartCheckFill } from 'react-icons/bs'
+import { motion } from "framer-motion"
 
 export function BetterCheckout() {
 
@@ -10,7 +11,12 @@ export function BetterCheckout() {
 
 		<section className='BetterCheckoutContainer'>
 			<div className='BetterCheckoutTextContainer'>
-				<h1>+95% de taxa de aprovação</h1>
+				<motion.h1 viewport={{ once: true }}
+					initial={{ opacity: 0, x: 100 }}
+					whileInView={{ opacity: 1, x: 0 }}
+					exit={{ opacity: 0, x: 100 }}
+					transition={{ type: 'spring', stiffness: 120, duration: 1 }}
+				>+95% de taxa de aprovação</motion.h1>
 				<h2>Com nossa tecnologia de ponta e colaborações estratégicas, garantimos uma taxa de aprovação de pagamento excepcionalmente alta, assegurando que praticamente todas as suas transações sejam processadas com êxito e segurança absoluta.</h2>
 			</div>
 

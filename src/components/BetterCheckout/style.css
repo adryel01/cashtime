@@ -25,7 +25,7 @@
 	margin: 0;
 }
 
-.BetterCheckoutTextContainer>h1 {
+/* .BetterCheckoutTextContainer>h1 {
 	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
@@ -39,7 +39,7 @@
 		filter: blur(0px);
 		opacity: 1;
 	}
-}
+} */
 
 @media (max-width:450px) {
 	.BetterCheckoutContainer {
