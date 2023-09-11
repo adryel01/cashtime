@@ -24,7 +24,7 @@ export function Intro() {
 			</div>
 			<div className='BackGroundImageIntro'>
 				<motion.img src={Robot} alt="" className='ImageIntroContainer'
-					initial={{ opacity: 0, y: -30, }}
+					initial={{ opacity: 0, y: -30}}
 					whileInView={
 						{
 							opacity: 1,
@@ -32,6 +32,7 @@ export function Intro() {
 							transition: {
 								duration: 1.5,
 							},
+							visibility: true
 						}
 					}
 				/>
