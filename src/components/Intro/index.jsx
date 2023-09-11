@@ -2,7 +2,7 @@ import './style.css'
 import { LinearGradient } from 'react-text-gradients'
 import ButtonStart from '../../assets/ButtonStart.png'
 import Robot from '../../assets/robotfinal.png'
-
+import { motion } from "framer-motion"
 
 export function Intro() {
 
@@ -23,7 +23,18 @@ export function Intro() {
 				<button className='ButtonAccess'>Acessar Agora</button>
 			</div>
 			<div className='BackGroundImageIntro'>
-				<img src={Robot} alt="" className='ImageIntroContainer' />
+				<motion.img src={Robot} alt="" className='ImageIntroContainer'
+					initial={{ opacity: 0, y: -30, }}
+					whileInView={
+						{
+							opacity: 1,
+							y: 0,
+							transition: {
+								duration: 1.5,
+							},
+						}
+					}
+				/>
 			</div>
 
 		</section>
