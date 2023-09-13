@@ -48,7 +48,7 @@ export function Integration() {
 					animate="visible"
 					variants={textVariants}
 				>Inicie e expanda mais rapidamente com a </motion.h2> */}
-				<p>Maximize suas vendas com a plataforma mais avançada de conversão, automação e pagamentos.</p>
+				<p>Maximize suas vendas com o checkout com a melhor taxa de conversão, automação e pagamentos.</p>
 				<button>Cadastre-se Agora</button>
 			</div>
 			<img src={grafico} alt="" />

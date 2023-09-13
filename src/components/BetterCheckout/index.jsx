@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 export function BetterCheckout() {
 
-	const text = "+95% de taxa de aprovação";
+	const text = "Melhor checkout do Mercado";
 
 
 	const textVariants = {
