@@ -4,7 +4,7 @@ footer{
 	padding: 50px 0px;
 	width: 100%;
 	position: absolute;
-	bottom: -2050px;
+	bottom: -2080px;
 	left: 0;
 	background-color: #333;
 	z-index: 1;
@@ -21,6 +21,10 @@ footer>nav{
 	font-size: 28px;
 	font-weight: bold;
 	color: #31b4c7;
+}
+
+.LogoFooter>img{
+	width: 120px;
 }
 
 

@@ -2,6 +2,7 @@ import './style.css'
 import {FaInstagram} from 'react-icons/fa6'
 import {FiYoutube} from 'react-icons/fi'
 import {FaTwitter} from 'react-icons/fa'
+import cashtime from '../../assets/cashtime-vertical-branco.png'
 
 export function Footer() {
 
@@ -11,7 +12,7 @@ export function Footer() {
 			<nav>
 				<div className='LeftFooter'>
 					<h2 className='LogoFooter'>
-						Cashtime
+						<img src={cashtime} alt="" />
 					</h2>
 					<div className='IconsFooter'>
 						<FaInstagram color='#fff'/>

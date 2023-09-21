@@ -49,7 +49,7 @@ export function Integration() {
 					variants={textVariants}
 				>Inicie e expanda mais rapidamente com a </motion.h2> */}
 				<p>Maximize suas vendas com o checkout com a melhor taxa de conversão, automação e pagamentos.</p>
-				<button>Cadastre-se Agora</button>
+				<a href='https://app.gateway.cashtimepay.com.br/register' target='_blank'><button className='ButtonIntegration'>Cadastre-se Agora</button></a>
 			</div>
 			<img src={grafico} alt="" />
 		</section>
