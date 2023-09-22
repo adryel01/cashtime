@@ -19,7 +19,7 @@ export function Partners() {
 
 			<section className='SkillContainer'>
 				<div className='slider'>
-					<div className='slide-track'>
+					<div className='slide-track-left slide-track'>
 						<div className='slide'><img src={shopify} alt="" /></div>
 						<div className='slide'><img src={meta} alt="" /></div>
 						<div className='slide'><img src={woocommerce} alt="" /></div>

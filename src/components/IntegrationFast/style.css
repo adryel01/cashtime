@@ -1,5 +1,4 @@
-
-.IntegrationContainer{
+.IntegrationContainer {
 	margin-top: 32px;
 	display: flex;
 	flex-direction: row;
@@ -8,25 +7,27 @@
 	color: #fff;
 }
 
-.IntegrationContainer>div>h2{
+.IntegrationContainer>div>h2 {
 	font-size: 36px;
 }
 
-.IntegrationContainer>div>p{
+.IntegrationContainer>div>p {
 	font-size: 22px;
-	
+
 }
 
-.ButtonIntegration{
+.ButtonIntegration {
 	font-size: 24px;
-	background-color: #31b4c7;
+	background: rgb(55, 240, 243);
+	background: linear-gradient(90deg, rgba(55, 240, 243, 1) 0%, rgba(2, 153, 156, 1) 100%);
+	border: none;
 	color: #fff;
 	animation: bounce 1s infinite;
 	margin-top: 16px;
 }
 
 
-.IntegrationContainer>img{
+.IntegrationContainer>img {
 	height: 500px;
 }
 
@@ -47,8 +48,8 @@
 	}
 }
 
-@media (max-width:450px){
-	.IntegrationContainer{
+@media (max-width:450px) {
+	.IntegrationContainer {
 		max-width: 100vw;
 		width: 90%;
 		flex-direction: column;
@@ -57,13 +58,13 @@
 		color: #fff;
 		margin: 0 auto;
 	}
-	
-	.IntegrationContainer>div>h2{
+
+	.IntegrationContainer>div>h2 {
 		font-size: 36px;
 	}
-	
 
-	.IntegrationContainer>img{
+
+	.IntegrationContainer>img {
 		height: 240px;
 		padding: 24px 0;
 	}

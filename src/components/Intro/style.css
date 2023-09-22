@@ -82,7 +82,9 @@
 
 .ButtonAccess {
 	color: #fff;
-	background-color: #31b4c7;
+	background: rgb(55, 240, 243);
+	background: linear-gradient(90deg, rgba(55, 240, 243, 1) 0%, rgba(2, 153, 156, 1) 100%);
+	border: none;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 	border-top-right-radius: 25px;
