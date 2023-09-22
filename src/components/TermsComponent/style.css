@@ -1,6 +1,6 @@
 
 .TextTerms{
-	color: #fff;
+	color: #333;
 	background-color: #fff;
 	max-width: 100vw;
 	width: 100%;
@@ -9,4 +9,16 @@
 	position: absolute;
 	top: 150px;
 	left: 0;
+}
+
+.TermsContainer{
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.TermsContainer>div{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
 }
