@@ -43,6 +43,11 @@
 	-webkit-animation: scrollLeft 80s linear infinite;
 }
 
+.slide-track-left-partners {
+	animation: scrollLeft 40s linear infinite;
+	-webkit-animation: scrollLeft 40s linear infinite;
+}
+
 @keyframes scrollLeft {
 	0% {
 		transform: translateX(0);

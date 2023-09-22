@@ -88,6 +88,12 @@ footer>nav{
 	color: #fff;
 }
 
+.Links{
+	text-decoration: inherit;
+	font-style: none;
+	color: #fff;
+}
+
 
 @media (max-width:450px){
 	footer{

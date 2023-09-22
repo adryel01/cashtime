@@ -1,24 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import { HeaderContainer } from './components/Header'
-import { Intro } from './components/Intro'
-import { Skills } from './components/Skills'
-import { BetterCheckout } from './components/BetterCheckout'
-import { Integration } from './components/IntegrationFast'
-import { Partners } from './components/Partners'
-import { Footer } from './components/Footer'
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './pages/Home'
+import { Terms } from './pages/TermsOfUse';
 
 function App() {
 
 	return (
 		<div className='App'>
-			<HeaderContainer />
-			<Intro/>
-			<Skills/>
-			<BetterCheckout/>
-			<Integration/>
-			<Partners/>
-			<Footer/>
+			<Routes>
+				<Route path='/' element={<Home/>}/>
+				<Route path='/terms-of-use' element={<Terms/>}/>
+			</Routes>
+			
 		</div>
 	)
 }

@@ -3,6 +3,7 @@ import {FaInstagram} from 'react-icons/fa6'
 import {FiYoutube} from 'react-icons/fi'
 import {FaTwitter} from 'react-icons/fa'
 import cashtime from '../../assets/cashtime-vertical-branco.png'
+import { Link } from 'react-router-dom'
 
 export function Footer() {
 
@@ -30,7 +31,7 @@ export function Footer() {
 					<h3>
 						Liks Úteis
 					</h3>
-					<p>Termos de Uso</p>
+					<Link to={'/terms-of-use'} className='Links'>Termos de Uso</Link>
 					<p>Políticas de Privacidade</p>
 				</div>
 			</nav>
