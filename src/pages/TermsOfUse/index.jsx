@@ -1,5 +1,6 @@
 
 import { Footer } from "../../components/Footer";
+import { FooterTerms } from "../../components/Footer copy";
 import { HeaderContainer } from "../../components/Header";
 import { TermsComponent } from "../../components/TermsComponent";
 import './style.css'
@@ -12,7 +13,7 @@ export function Terms() {
 		<div>
 			<HeaderContainer />
 			<TermsComponent/>
-			<Footer />
+			<FooterTerms/>
 		</div>
 	)
 }
