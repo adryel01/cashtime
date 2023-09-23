@@ -39,8 +39,8 @@
 }
 
 .slide-track-left {
-	animation: scrollLeft 80s linear infinite;
-	-webkit-animation: scrollLeft 80s linear infinite;
+	animation: scrollLeft 60s linear infinite;
+	-webkit-animation: scrollLeft 60s linear infinite;
 }
 
 .slide-track-left-partners {
@@ -61,8 +61,8 @@
 }
 
 .slide-track-right {
-	animation: scrollRight 80s linear infinite;
-	-webkit-animation: scrollRight 80s linear infinite;
+	animation: scrollRight 60s linear infinite;
+	-webkit-animation: scrollRight 60s linear infinite;
 }
 
 @keyframes scrollRight {
