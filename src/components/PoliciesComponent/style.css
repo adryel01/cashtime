@@ -1,5 +1,5 @@
 
-.TextTerms{
+.TextPolicies{
 	color: #333;
 	background-color: #fff;
 	max-width: 100vw;
@@ -11,7 +11,7 @@
 	left: 0;
 }
 
-.TermsContainer{
+.PoliciesContainer{
 	margin: 8px;
 	display: flex;
 	flex-direction: column;
@@ -20,7 +20,7 @@
 	padding: 8px;
 }
 
-.TermsContainer>div{
+.PoliciesContainer>div{
 	display: flex;
 	flex-direction: column;
 	text-align: left;

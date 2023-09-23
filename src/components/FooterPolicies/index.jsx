@@ -5,11 +5,16 @@ import {FaTwitter} from 'react-icons/fa'
 import cashtime from '../../assets/cashtime-vertical-branco.png'
 import { Link } from 'react-router-dom'
 
-export function Footer() {
+export function FooterPolicies() {
 
 	return (
 
-		<footer>
+		<footer className='FooterPolicies'>
+			<div className='Prefooter'>
+				<h1>Lucre junto aos melhores do Mercado Digital na Cashtime</h1>
+				<p>Lojista, maximize suas vendas com a plataforma mais avançada de conversão, automação e pagamentos. Não precisa continuar procurando, você achou! <b>Basta criar sua conta.</b></p>
+			</div>
+			<hr />
 			<nav>
 				<div className='LeftFooter'>
 					<h2 className='LogoFooter'>

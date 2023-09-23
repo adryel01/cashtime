@@ -37,7 +37,7 @@ export function FooterTerms() {
 						Liks Úteis
 					</h3>
 					<a href='/terms-of-use' className='Links'>Termos de Uso</a>
-					<p>Políticas de Privacidade</p>
+					<a href='/policies' className='Links'>Políticas de Privacidade</a>
 				</div>
 			</nav>
 			<div className='CopyRight'>
