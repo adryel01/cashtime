@@ -11,8 +11,8 @@ export function HeaderContainer() {
 				<img src={cashtime} alt="" />
 			</Link>
 			<nav className="NavHeader">
-				<a href="https://app.gateway.cashtimepay.com.br/login" className='LinkAcessHeader' target='_blank'>Acessar Plataforma</a>
-				<a href='https://app.gateway.cashtimepay.com.br/register' target='_blank'><button className='SignUpButtonHeader'>Cadastre-se Agora</button></a>
+				<a href="https://app.gateway.cashtimepay.com.br/register" className='LinkAcessHeader' target='_blank'>Acessar Gateway</a>
+				<a href='https://app.cashtimepayments.com.br/register' target='_blank'><button className='SignUpButtonHeader'>Acessar Checkout</button></a>
 			</nav>
 		</div>
 	)

@@ -5,6 +5,7 @@ import { Integration } from "../../components/IntegrationFast";
 import { Intro } from "../../components/Intro";
 import { Partners } from "../../components/Partners";
 import { Skills } from "../../components/Skills";
+import { TutorialLink } from "../../components/TutorialLink";
 import './style.css'
 
 export function Home (){
@@ -17,6 +18,7 @@ export function Home (){
 			<BetterCheckout/>
 			<Integration/>
 			<Partners/>
+			<TutorialLink/>
 			<Footer/>
 		</div>
 	)

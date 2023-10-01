@@ -1,0 +1,27 @@
+
+.TutorialLinkContainer{
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+
+.TutorialLinkContainer>h1{
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.TutorialLinkContainer>h2{
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 16px;
+}
+
+.TutorialLinkContainer>a>button{
+	color: #fff;
+	background: rgb(55, 240, 243);
+	background: linear-gradient(90deg, rgba(55, 240, 243, 1) 0%, rgba(2, 153, 156, 1) 100%);
+	border: none;
+	width: 220px;
+	font-size: 20px;
+	animation: bounce 1s infinite;
+}
