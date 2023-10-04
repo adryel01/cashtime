@@ -113,6 +113,10 @@ export function TermsComponent() {
 
 					<p>4.5.2. A CONTRATANTE concorda que est&aacute; contratando uma solu&ccedil;&atilde;o de pagamento para processamento das transa&ccedil;&otilde;es financeiras com seus clientes digitais. A CONTRATANTE tamb&eacute;m pode contratar, mediante contrata&ccedil;&atilde;o espec&iacute;fica, antecipa&ccedil;&otilde;es autom&aacute;ticas de seus receb&iacute;veis, que podem variar entre 0% e 100% dos valores total da venda mensal, de acordo com sua a agenda de receb&iacute;veis, e a depender da disponibilidade da CONTRATADA e/ou das institui&ccedil;&otilde;es financeiras integrantes do arranjo de pagamento que o CONTRATANTE mantiver rela&ccedil;&atilde;o.</p>
 
+					<p>4.5.3. O ESTABELECIMENTO RECONHECE E SE DECLARA DE ACORDO QUE, POR MEIO DO PIX CHECKOUT, A CASHTIMEPAY ATUARÁ COMO AGENTE DE COLETA DOS PAGAMENTOS EFETUADOS PELOS CLIENTES. A CASHTIME SERÁ O USUÁRIO FINAL RECEBEDOR DOS VALORES TRANSACIONADOS VIA PIX, OBRIGANDO-SE A REALIZAR O REPASSE DAS QUANTIAS DEVIDAS AO ESTABELECIMENTO, DEDUZIDAS AS TARIFAS E ENCARGOS APLICÁVEIS, Fluxo de pagamento.O fluxo de pagamento para realização de transações via pix e recebimento do repasse pelo Estabelecimentos ocorre da seguinte maneira: após a habilitação do pix checkout, o cliente poderá solicitar opção de pagamento via Pix na Plataforma do Parceiro;
+					
+					por meio da integração com os sistemas cashtime, o Parceiro solicitará a Cashtime geração de ação do pagamento via Pix, fornecendo os dados necessários conforme solicitados pela Cashtime</p>
+
 
 					<p>4.6. O programa &ldquo;CASHTIME&rdquo; permanecer&aacute; instalado no data center da CONTRATADA e o CONTRATANTE ter&aacute; acesso ao mesmo via internet, sendo-lhe disponibilizadas as licen&ccedil;as nos termos contratados.</p>
 
