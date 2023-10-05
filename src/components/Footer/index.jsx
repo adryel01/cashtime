@@ -1,7 +1,7 @@
 import './style.css'
-import {FaInstagram} from 'react-icons/fa6'
-import {FiYoutube} from 'react-icons/fi'
-import {FaTwitter} from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa6'
+import { FiYoutube } from 'react-icons/fi'
+import { FaTwitter } from 'react-icons/fa'
 import cashtime from '../../assets/cashtime-vertical-branco.png'
 import { Link } from 'react-router-dom'
 
@@ -16,9 +16,9 @@ export function Footer() {
 						<img src={cashtime} alt="" />
 					</h2>
 					<div className='IconsFooter'>
-						<FaInstagram color='#fff'/>
-						<FiYoutube color='#fff'/>
-						<FaTwitter color='#fff'/>
+						<FaInstagram color='#fff' />
+						<FiYoutube color='#fff' />
+						<FaTwitter color='#fff' />
 					</div>
 				</div>
 				<div className='CenterFooter'>
@@ -37,6 +37,11 @@ export function Footer() {
 			</nav>
 			<div className='CopyRight'>
 				<span>© Copyright 2023・Cashtime・Todos os direitos reservados.</span>
+				<div>
+					<p>CASH TIME PAY PRODUTOS E SERVICOS DIGITAIS LTDA</p>
+					<span>R MAGNOLIAS, Nº 1560, Q101B L11, PRQ OESTE INDUSTRIAL</span>
+					<span>CEP 74.375-770, GOIÂNIA-GO</span>
+				</div>
 				<span>CNPJ: 37.202.552/0001-92</span>
 			</div>
 		</footer>

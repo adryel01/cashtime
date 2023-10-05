@@ -37,6 +37,11 @@ export function Footer() {
 			</nav>
 			<div className='CopyRight'>
 				<span>© Copyright 2023・Cashtime・Todos os direitos reservados.</span>
+				<div>
+					<p>CASH TIME PAY PRODUTOS E SERVICOS DIGITAIS LTDA</p>
+					<span>R MAGNOLIAS, Nº 1560, Q101B L11, PRQ OESTE INDUSTRIAL</span>
+					<span>CEP 74.375-770, GOIÂNIA-GO</span>
+				</div>
 				<span>CNPJ: 37.202.552/0001-92</span>
 			</div>
 		</footer>
