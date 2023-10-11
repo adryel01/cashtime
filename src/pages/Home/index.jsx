@@ -6,6 +6,7 @@ import { Intro } from "../../components/Intro";
 import { Partners } from "../../components/Partners";
 import { Skills } from "../../components/Skills";
 import { TutorialLink } from "../../components/TutorialLink";
+import { Whatsapp } from "../../components/Whatsapp";
 import './style.css'
 
 export function Home (){
@@ -19,6 +20,7 @@ export function Home (){
 			<Integration/>
 			<Partners/>
 			<TutorialLink/>
+			<Whatsapp/>
 			<Footer/>
 		</div>
 	)
