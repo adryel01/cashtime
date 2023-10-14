@@ -7,6 +7,18 @@ import { useEffect } from 'react'
 
 export function HeaderContainer() {
 
+	function gtag_report_conversion(url) {
+		var callback = function () {
+			if (typeof (url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': 'AW-11371886781/SXY2CN23wOsYEL3xxK4q',
+			'event_callback': callback
+		});
+		return false;
+	}
 	
 
 	return (
