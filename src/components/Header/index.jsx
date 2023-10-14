@@ -2,8 +2,14 @@ import './style.css'
 import { LinearGradient } from 'react-text-gradients'
 import cashtime from '../../assets/cashtime-horizontal-branco.png'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+
 
 export function HeaderContainer() {
+
+	useEffect(()=>{
+		gtag_report_conversion('https://app.gateway.cashtimepay.com.br/register')
+	},[])
 
 	return (
 		<div className="HeaderContainer">
