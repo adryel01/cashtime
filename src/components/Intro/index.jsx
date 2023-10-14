@@ -6,6 +6,19 @@ import { motion } from "framer-motion"
 
 export function Intro() {
 
+	function gtag_report_conversion(url) {
+		var callback = function () {
+			if (typeof (url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': 'AW-11371886781/SXY2CN23wOsYEL3xxK4q',
+			'event_callback': callback
+		});
+		return false;
+	}
+
 	return (
 
 		<section className='IntroContainer'>
@@ -20,7 +33,7 @@ export function Intro() {
 				</div>
 				<p>de Sistemas de Pagamentos</p>
 				<span>A resposta definitiva para aprimorar o seu negócio digital está ao seu alcance. Nossa plataforma oferece recursos inteligentes para impulsionar suas vendas através de automação, um processo de finalização de compra inigualável e muito mais. Agora, você encontrou a solução que estava buscando.</span>
-				<a href='https://app.gateway.cashtimepay.com.br/login' target='_blank'><button className='ButtonAccess'>Acessar Agora</button></a>
+				<a href='https://app.gateway.cashtimepay.com.br/login' target='_blank' onClick={()=>gtag_report_conversion('https://app.gateway.cashtimepay.com.br')}><button className='ButtonAccess'>Acessar Agora</button></a>
 			</div>
 			<div className='BackGroundImageIntro'>
 				<motion.img src={Robot} alt="" className='ImageIntroContainer'

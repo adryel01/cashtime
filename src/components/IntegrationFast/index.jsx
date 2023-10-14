@@ -6,6 +6,19 @@ import { motion } from 'framer-motion';
 
 export function Integration() {
 
+	function gtag_report_conversion(url) {
+		var callback = function () {
+			if (typeof (url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': 'AW-11371886781/SXY2CN23wOsYEL3xxK4q',
+			'event_callback': callback
+		});
+		return false;
+	}
+
 
 	const text = "Inicie e expanda mais rapidamente com a Cashtime";
 
@@ -49,7 +62,7 @@ export function Integration() {
 					variants={textVariants}
 				>Inicie e expanda mais rapidamente com a </motion.h2> */}
 				<p>Maximize suas vendas com o checkout com a melhor taxa de conversão, automação e pagamentos.</p>
-				<a href='https://app.gateway.cashtimepay.com.br/register' target='_blank'><button className='ButtonIntegration'>Cadastre-se Agora</button></a>
+				<a href='https://app.gateway.cashtimepay.com.br/register' target='_blank' onClick={()=>gtag_report_conversion('https://app.gateway.cashtimepay.com.br/register')}><button className='ButtonIntegration'>Cadastre-se Agora</button></a>
 			</div>
 			<img src={grafico} alt="" />
 		</section>
