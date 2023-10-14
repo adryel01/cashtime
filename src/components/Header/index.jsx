@@ -7,9 +7,7 @@ import { useEffect } from 'react'
 
 export function HeaderContainer() {
 
-	useEffect(()=>{
-		gtag_report_conversion('https://app.gateway.cashtimepay.com.br/register')
-	},[])
+	
 
 	return (
 		<div className="HeaderContainer">
@@ -17,7 +15,7 @@ export function HeaderContainer() {
 				<img src={cashtime} alt="" />
 			</Link>
 			<nav className="NavHeader">
-				<a href="https://app.gateway.cashtimepay.com.br/register" className='LinkAcessHeader' target='_blank'>Acessar Gateway</a>
+				<a href="https://app.gateway.cashtimepay.com.br/register" className='LinkAcessHeader' target='_blank' onClick={gtag_report_conversion('https://app.gateway.cashtimepay.com.br/register')}>Acessar Gateway</a>
 				<a href='https://app.cashtimepayments.com.br/register' target='_blank'><button className='SignUpButtonHeader'>Acessar Checkout</button></a>
 			</nav>
 		</div>
