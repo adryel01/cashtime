@@ -27,7 +27,7 @@ export function Intro() {
 				<div className='PreContainerGradientHeader'>
 					<div className='ContainerGradientHeader'>
 						<p>A Próxima</p>
-						<LinearGradient gradient={['to right', '#37f0f3 ,#02999c']} className='GradientTextIntro'>Geração</LinearGradient>
+						<LinearGradient gradient={['to right', '#0edade ,#5350b3']} className='GradientTextIntro'>Geração</LinearGradient>
 					</div>
 					<img src={ButtonStart} alt="" className='ImageHeaderIntroContainer' />
 				</div>

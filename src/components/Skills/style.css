@@ -23,8 +23,8 @@
 }
 
 .slide>button {
-	background: rgb(55, 240, 243);
-	background: linear-gradient(90deg, rgba(55, 240, 243, 1) 0%, rgba(2, 153, 156, 1) 100%);
+	background: rgb(83, 218, 222);
+	background: linear-gradient(90deg, rgba(83, 218, 222, 1) 0%, rgba(83, 80, 179, 1) 100%);
 	padding: 16px;
 	border-radius: 8px;
 	color: #fff;
