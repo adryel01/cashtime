@@ -20,7 +20,7 @@ export function Home (){
 			<Integration/>
 			<Partners/>
 			<TutorialLink/>
-			<Whatsapp/>
+			{/* <Whatsapp/> */}
 			<Footer/>
 		</div>
 	)
