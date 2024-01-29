@@ -2,12 +2,14 @@ import { Footer } from '../../components/FooterTutorial'
 import { HeaderContainer } from '../../components/Header'
 import './style.css'
 
+
+
 export function Tutorial() {
 
 	return (
 
 		<div>
-			<HeaderContainer/>
+			<HeaderContainer />
 			<div className='TutorialContainer'>
 				<h1>Tutorial de Integração Cashtime</h1>
 				<iframe src="https://www.youtube.com/embed/OwRE7W4UYsI?si=Bstl5pavN57FvMWm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -22,8 +24,15 @@ export function Tutorial() {
 						<li>Pronto! Sua loja está pronta para utilizar a Cashtime.</li>
 					</ol>
 				</div>
+				<h1 className='VegaCheckout'>Tutorial de Integração Vega Checkout</h1>
+				<iframe src="https://www.youtube.com/embed/w43fkYVLW9A?si=nKhjbLXQhW_46DyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<button className='ButtonDownload'>
+					<a href="vega-checkout.docx" download='vega-checkout.docx'>
+						Baixar Script Vega
+					</a>
+				</button>
 			</div>
-			<Footer/>
+			<Footer />
 		</div>
 
 	)

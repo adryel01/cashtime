@@ -8,7 +8,7 @@
 	align-items: center;
 	justify-content: center ;
 	color: #fff;
-	margin-top: 50px;
+	margin-top: 300px;
 }
 
 .StepByStep>ol{
@@ -35,6 +35,23 @@ iframe{
 	min-height: 480px;
 	width: 852px;
 	border-radius: 16px;
+}
+
+.VegaCheckout{
+	margin-top: 64px;
+}
+
+.ButtonDownload{
+	font-size: 18px;
+	background: rgb(83, 218, 222);
+	background: linear-gradient(90deg, rgba(83, 218, 222, 1) 0%, rgba(83, 80, 179, 1) 100%);
+	border: none;
+	color: #fff;
+	margin-top: 32px;
+}
+
+.ButtonDownload>a{
+	color: #fff;
 }
 
 @media (max-width:450px) {
