@@ -10,7 +10,7 @@ export function PoliciesComponent() {
 				<h1>Políticas de Privacidade</h1>
 
 				<div>
-					<p>CONTROLADORA DOS DADOS: CASH TIME PAY PRODUTOS E SERVICOS DIGITAIS LTDA('CASHTIME'), com sede em RUA DAS MAGNÓLIAS, Q101B L11, Nº1560, CEP 74.375-770, Goiânia-GO</p>
+					<p>CONTROLADORA DOS DADOS: CASH TIME PAY PRODUTOS E SERVICOS DIGITAIS LTDA('CASHTIME'), com sede em AV NÁPOLI, Nº 500, PLAZA D'ORO SHOPPING, SALA 406, RESIDENCIAL ELDORADO, CEP 74.367-970, Goiânia-GO</p>
 
 
 					<p>Ol&aacute;, bem-vindo(a)!</p>
