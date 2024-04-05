@@ -38,12 +38,23 @@
 	border: none;
 }
 
+.SignUpButtonHeader2{
+	color: #fff;
+	background: rgb(83, 218, 222);
+	background: linear-gradient(90deg,  rgba(83, 80, 179, 1) 0%,  rgba(83, 218, 222, 1) 100%);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: none;
+}
+
 .NavHeader{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	width: 370px;
+	width: 520px;
 	margin: 0;
 }
 
@@ -71,10 +82,11 @@
 
 	.NavHeader{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
 		max-width: 350px;
 		margin: 0 auto;
+		gap: 16px;
 	}
 }
