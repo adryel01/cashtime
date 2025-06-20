@@ -33,7 +33,7 @@ export function Intro() {
 				</div>
 				<p>de Sistemas de Pagamentos</p>
 				<span>A resposta definitiva para aprimorar o seu negócio digital está ao seu alcance. Nossa plataforma oferece recursos inteligentes para impulsionar suas vendas através de automação, um processo de finalização de compra inigualável e muito mais. Agora, você encontrou a solução que estava buscando.</span>
-				<a href='https://app.gateway.cashtimepay.com.br/login' target='_blank' onClick={()=>gtag_report_conversion('https://app.gateway.cashtimepay.com.br')}><button className='ButtonAccess'>Acessar Agora</button></a>
+				<a href='https://app.cashtime.com.br/auth/jwt/register' target='_blank' onClick={()=>gtag_report_conversion('https://app.cashtime.com.br/auth/jwt/register')}><button className='ButtonAccess'>Acessar Agora</button></a>
 			</div>
 			<div className='BackGroundImageIntro'>
 				<motion.img src={Robot} alt="" className='ImageIntroContainer'
